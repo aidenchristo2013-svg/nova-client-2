@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "nova-client",
+  "version": "${version}",
+  "name": "Nova Client",
+  "description": "Client-side tools: schematic viewer, player and projectile info, visual options, and a searchable menu.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["net.novaclient.NovaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
